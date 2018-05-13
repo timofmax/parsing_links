@@ -1,3 +1,3 @@
 # parsing_links
 Parsing links from forum
-![alt look](https://goo.gl/Dqq2qk)
+<img src="https://goo.gl/Dqq2qk")
