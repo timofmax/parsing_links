@@ -5,13 +5,15 @@ import re
 
 
 def data_to_dump():
-    with open('output_file.csv', 'w') as f:
+    with open('route_file.csv', 'w') as f:
         start_page = int(input("start page to parse: "))
         end_page = int(input("last page to parse: "))
         writer = csv.writer(f)
         main_sps = []
+
         regex = re.compile("commentbody-\d+")
         site = "http://www.digitaltut.com/share-your-route-v2-0-experience/comment-page-{}#comments"
+        #site = 'https://www.certprepare.com/share-your-switch-v2-0-experience/comment-page-827#comments'
         for i in range(start_page, end_page):
             source = requests.get(site.format(i)).text
             soup = BeautifulSoup(source, "lxml")

@@ -5,7 +5,7 @@ import re
 
 
 def data_to_dump():
-    with open('output_file.csv', 'w') as f:
+    with open('switch_file.csv', 'w') as f:
         start_page = int(input("start page to parse: "))
         end_page = int(input("last page to parse: "))
         writer = csv.writer(f)
