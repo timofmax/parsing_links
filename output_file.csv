@@ -1,0 +1,23 @@
+"Question…
+Are the step by step instructions for configuring the LACP with STP Sim still correct?
+https://www.certprepare.com/lacp-with-stp-sim
+If not can someone point me in the right direction please.",https://www.certprepare.com/lacp-with-stp-sim,"September 23rd, 2019",T
+"@Please Help Answer.
+Yes the answer is A.
+https://www.cisco.com/c/m/en_us/techdoc/dc/reference/cli/nxos/commands/l2/clear-mac-address-table-dynamic.html",https://www.cisco.com/c/m/en_us/techdoc/dc/reference/cli/nxos/commands/l2/clear-mac-address-table-dynamic.html,"September 23rd, 2019",Kami
+"Answer C is correct
+Which command removes all MAC addresses from port channel?
+A. clear mac-address table dynamic
+B. clear mac-address table dynamic address mac address
+C. clear mac-address table dynamic interface interface-id
+D. clear mac-address table dynamic vlan vlan-id
+https://www.cisco.com/c/m/en_us/techdoc/dc/reference/cli/nxos/commands/l2/clear-mac-address-table-dynamic.html
+“If the clear mac address-table dynamic command is entered with no options, all dynamic addresses are removed.
+If you specify an address but do not specify an interface, the address is deleted from all interfaces.
+If you specify an interface but do not specify an address, the switch removes all addresses on the specified interfaces.”",https://www.cisco.com/c/m/en_us/techdoc/dc/reference/cli/nxos/commands/l2/clear-mac-address-table-dynamic.html,"September 24th, 2019",@Neofly
+"I call shenanigans sir! 
+There is no way you got a AAA Simlet/Lab…per Cisco CCNP Switch exam topic.
+“Infrastructure Security”
+“2.2 Describe device security using Cisco IOS AAA with TACACS+ and RADIUS”
+Per Cisco,  this is one of the only topic that you are not expected to be able to configure and verify….why you trying to scare people for no good reason….?
+Reference: https://learningnetwork.cisco.com/community/certifications/ccnp/switch_v2/exam-topics",Reference:https://learningnetwork.cisco.com/community/certifications/ccnp/switch_v2/exam-topics,"September 26th, 2019",@Grimsaint
